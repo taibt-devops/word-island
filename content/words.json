@@ -1,0 +1,490 @@
+{
+  "style": {
+    "name": "Word Island",
+    "prompt": "cute children's picture-book illustration, bold clean dark-brown outlines, soft cel shading with gentle highlights, bright cheerful saturated colors, simple rounded friendly shapes, adorable, soft light from the top left",
+    "recipe": {
+      "sprite_size": 512,
+      "padding": 16
+    }
+  },
+  "anchor": "apple",
+  "mascot": {
+    "name": "Ollie",
+    "base": "a cute round baby owl teacher mascot named Ollie, big friendly eyes, small round glasses, a tiny red bow tie, soft brown and cream feathers, standing and smiling",
+    "poses": {
+      "happy": "Ollie cheering with both wings raised high, eyes closed with a huge happy smile, celebrating",
+      "sad": "Ollie looking a little sad but kind and encouraging, one wing resting on his chest, gentle small smile",
+      "wave": "Ollie waving hello with one wing, smiling warmly"
+    }
+  },
+  "home_background": "a bright cheerful cartoon tropical island in a calm turquoise sea, seen from above at a gentle angle, sandy beaches, a few palm trees, soft green hills, sunny sky with soft clouds",
+  "background_suffix": "Soft, simple and uncluttered with low detail and gentle colors, lots of calm empty space in the middle of the image, no people, no animals, no text.",
+  "topics": [
+    {
+      "id": "animals",
+      "en": "Animals",
+      "vi": "Động vật",
+      "color": "#ff9f43",
+      "background": "a sunny jungle clearing with soft green trees, ferns and grass",
+      "words": [
+        {
+          "en": "cat",
+          "vi": "con mèo",
+          "sentence": "The cat is sleeping.",
+          "sentence_vi": "Con mèo đang ngủ.",
+          "image": "a cute orange tabby cat sitting, full body"
+        },
+        {
+          "en": "dog",
+          "vi": "con chó",
+          "sentence": "My dog can run fast.",
+          "sentence_vi": "Con chó của tôi chạy rất nhanh.",
+          "image": "a cute brown puppy dog sitting with its tongue out, full body"
+        },
+        {
+          "en": "bird",
+          "vi": "con chim",
+          "sentence": "The bird is singing.",
+          "sentence_vi": "Con chim đang hót.",
+          "image": "a small blue songbird perched and singing, full body"
+        },
+        {
+          "en": "fish",
+          "vi": "con cá",
+          "sentence": "The fish can swim.",
+          "sentence_vi": "Con cá biết bơi.",
+          "image": "a bright orange fish swimming, side view"
+        },
+        {
+          "en": "rabbit",
+          "vi": "con thỏ",
+          "sentence": "The rabbit likes carrots.",
+          "sentence_vi": "Con thỏ thích cà rốt.",
+          "image": "a fluffy white rabbit with long ears sitting, full body"
+        },
+        {
+          "en": "elephant",
+          "vi": "con voi",
+          "sentence": "The elephant is very big.",
+          "sentence_vi": "Con voi rất to.",
+          "image": "a friendly grey elephant standing, full body, side view"
+        },
+        {
+          "en": "monkey",
+          "vi": "con khỉ",
+          "sentence": "The monkey can climb trees.",
+          "sentence_vi": "Con khỉ biết trèo cây.",
+          "image": "a playful brown monkey sitting with a long curly tail, full body"
+        },
+        {
+          "en": "lion",
+          "vi": "con sư tử",
+          "sentence": "The lion is strong.",
+          "sentence_vi": "Con sư tử rất khỏe.",
+          "image": "a friendly lion with a big golden mane sitting, full body"
+        }
+      ],
+      "cover": "lion",
+      "boss": {
+        "en": "Monkey King",
+        "vi": "Vua Khỉ Tinh Nghịch",
+        "image": "a cute mischievous monkey king boss character with a tiny golden crown, a red cape and a cheeky grin, arms crossed, full body",
+        "defeated": "the same character sitting on the ground dizzy and defeated, swirly eyes, little stars circling around the head, still cute and friendly, not hurt"
+      },
+      "hat": {
+        "id": "safari",
+        "vi": "Mũ thám hiểm",
+        "image": "a small khaki safari explorer pith helmet hat, front view, slightly tilted"
+      }
+    },
+    {
+      "id": "fruits",
+      "en": "Fruits",
+      "vi": "Trái cây",
+      "color": "#ee5a6f",
+      "background": "a sunny fruit orchard with rows of leafy trees and a low wooden fence",
+      "words": [
+        {
+          "en": "apple",
+          "vi": "quả táo",
+          "sentence": "I eat an apple.",
+          "sentence_vi": "Tôi ăn một quả táo.",
+          "image": "a shiny red apple with a green leaf on the stem"
+        },
+        {
+          "en": "banana",
+          "vi": "quả chuối",
+          "sentence": "The banana is yellow.",
+          "sentence_vi": "Quả chuối màu vàng.",
+          "image": "a single ripe yellow banana"
+        },
+        {
+          "en": "orange",
+          "vi": "quả cam",
+          "sentence": "I drink orange juice.",
+          "sentence_vi": "Tôi uống nước cam.",
+          "image": "a whole round orange citrus fruit with a small green leaf"
+        },
+        {
+          "en": "grapes",
+          "vi": "chùm nho",
+          "sentence": "These grapes are sweet.",
+          "sentence_vi": "Những quả nho này rất ngọt.",
+          "image": "a bunch of purple grapes with a green leaf"
+        },
+        {
+          "en": "watermelon",
+          "vi": "quả dưa hấu",
+          "sentence": "Watermelon is great in summer.",
+          "sentence_vi": "Dưa hấu rất ngon vào mùa hè.",
+          "image": "a big triangular slice of watermelon with green rind, red flesh and black seeds"
+        },
+        {
+          "en": "strawberry",
+          "vi": "quả dâu tây",
+          "sentence": "The strawberry is red.",
+          "sentence_vi": "Quả dâu tây màu đỏ.",
+          "image": "a red strawberry with green leaves on top"
+        },
+        {
+          "en": "mango",
+          "vi": "quả xoài",
+          "sentence": "I love mangoes.",
+          "sentence_vi": "Tôi rất thích xoài.",
+          "image": "a whole ripe yellow-orange mango fruit with a green leaf"
+        },
+        {
+          "en": "pineapple",
+          "vi": "quả dứa",
+          "sentence": "The pineapple is sweet and sour.",
+          "sentence_vi": "Quả dứa vừa ngọt vừa chua.",
+          "image": "a whole pineapple with spiky green leaves on top"
+        }
+      ],
+      "cover": "watermelon",
+      "boss": {
+        "en": "Greedy Caterpillar",
+        "vi": "Sâu Háu Ăn",
+        "image": "a cute chubby green caterpillar boss character wearing a tiny black top hat, holding a half-eaten apple, cheeky smile, full body",
+        "defeated": "the same character sitting on the ground dizzy and defeated, swirly eyes, little stars circling around the head, still cute and friendly, not hurt"
+      },
+      "hat": {
+        "id": "strawberry",
+        "vi": "Mũ dâu tây",
+        "image": "a cute knitted red strawberry beanie hat with small green leaves on top, front view"
+      }
+    },
+    {
+      "id": "food",
+      "en": "Food",
+      "vi": "Đồ ăn",
+      "color": "#feca57",
+      "background": "a cozy bright kitchen with wooden shelves and a window",
+      "words": [
+        {
+          "en": "bread",
+          "vi": "bánh mì",
+          "sentence": "I have bread for breakfast.",
+          "sentence_vi": "Tôi ăn bánh mì vào bữa sáng.",
+          "image": "a golden brown loaf of bread"
+        },
+        {
+          "en": "milk",
+          "vi": "sữa",
+          "sentence": "I drink milk every day.",
+          "sentence_vi": "Tôi uống sữa mỗi ngày.",
+          "image": "a tall glass full of white milk"
+        },
+        {
+          "en": "egg",
+          "vi": "quả trứng",
+          "sentence": "I eat an egg.",
+          "sentence_vi": "Tôi ăn một quả trứng.",
+          "image": "a whole white chicken egg"
+        },
+        {
+          "en": "rice",
+          "vi": "cơm",
+          "sentence": "We eat rice for lunch.",
+          "sentence_vi": "Chúng tôi ăn cơm vào bữa trưa.",
+          "image": "a bowl of steamed white rice with a pair of chopsticks resting on the bowl"
+        },
+        {
+          "en": "cake",
+          "vi": "bánh ngọt",
+          "sentence": "I want a piece of cake.",
+          "sentence_vi": "Tôi muốn một miếng bánh.",
+          "image": "a round birthday cake with pink frosting and one candle"
+        },
+        {
+          "en": "noodles",
+          "vi": "mì sợi",
+          "sentence": "I like noodles.",
+          "sentence_vi": "Tôi thích ăn mì.",
+          "image": "a bowl of noodle soup with chopsticks lifting some noodles"
+        },
+        {
+          "en": "ice cream",
+          "vi": "kem",
+          "sentence": "Ice cream is cold.",
+          "sentence_vi": "Kem rất lạnh.",
+          "image": "an ice cream cone with two scoops, pink and white"
+        },
+        {
+          "en": "candy",
+          "vi": "kẹo",
+          "sentence": "Don't eat too much candy!",
+          "sentence_vi": "Đừng ăn quá nhiều kẹo nhé!",
+          "image": "a single colorful wrapped candy with twisted ends"
+        }
+      ],
+      "cover": "cake",
+      "boss": {
+        "en": "Sneaky Raccoon",
+        "vi": "Gấu Mèo Ăn Vụng",
+        "image": "a cute sneaky raccoon boss character wearing a chef apron, holding a big wooden spoon, mischievous grin, full body",
+        "defeated": "the same character sitting on the ground dizzy and defeated, swirly eyes, little stars circling around the head, still cute and friendly, not hurt"
+      },
+      "hat": {
+        "id": "chef",
+        "vi": "Mũ đầu bếp",
+        "image": "a tall white chef hat (toque), front view"
+      }
+    },
+    {
+      "id": "school",
+      "en": "School",
+      "vi": "Trường học",
+      "color": "#54a0ff",
+      "background": "a bright friendly classroom with an empty green chalkboard, wooden desks and big windows",
+      "words": [
+        {
+          "en": "book",
+          "vi": "quyển sách",
+          "sentence": "Open your book.",
+          "sentence_vi": "Hãy mở sách ra.",
+          "image": "a closed hardcover book with a red cover"
+        },
+        {
+          "en": "pencil",
+          "vi": "bút chì",
+          "sentence": "I write with a pencil.",
+          "sentence_vi": "Tôi viết bằng bút chì.",
+          "image": "a yellow wooden pencil with a pink eraser tip, diagonal"
+        },
+        {
+          "en": "ruler",
+          "vi": "thước kẻ",
+          "sentence": "Use a ruler to draw a line.",
+          "sentence_vi": "Dùng thước để kẻ một đường thẳng.",
+          "image": "a straight wooden ruler with small tick marks, diagonal"
+        },
+        {
+          "en": "eraser",
+          "vi": "cục tẩy",
+          "sentence": "I need an eraser.",
+          "sentence_vi": "Tớ cần một cục tẩy.",
+          "image": "a pink rubber eraser block"
+        },
+        {
+          "en": "backpack",
+          "vi": "cặp sách",
+          "sentence": "My backpack is heavy.",
+          "sentence_vi": "Cặp sách của tôi rất nặng.",
+          "image": "a blue school backpack with two straps"
+        },
+        {
+          "en": "scissors",
+          "vi": "cái kéo",
+          "sentence": "Be careful with scissors.",
+          "sentence_vi": "Hãy cẩn thận khi dùng kéo.",
+          "image": "a pair of scissors with red handles, slightly open"
+        },
+        {
+          "en": "crayon",
+          "vi": "bút sáp màu",
+          "sentence": "I draw with a crayon.",
+          "sentence_vi": "Tôi vẽ bằng bút sáp màu.",
+          "image": "a single red wax crayon with a paper wrapper, diagonal"
+        },
+        {
+          "en": "globe",
+          "vi": "quả địa cầu",
+          "sentence": "Look at the globe.",
+          "sentence_vi": "Hãy nhìn quả địa cầu.",
+          "image": "a classroom globe of the Earth on a stand"
+        }
+      ],
+      "cover": "backpack",
+      "boss": {
+        "en": "Lazy Robot",
+        "vi": "Rô-bốt Lười Học",
+        "image": "a cute small round robot boss character with a screen face showing a grumpy expression, one antenna, holding a crumpled paper ball, full body",
+        "defeated": "the same character sitting on the ground dizzy and defeated, swirly eyes, little stars circling around the head, still cute and friendly, not hurt"
+      },
+      "hat": {
+        "id": "graduation",
+        "vi": "Mũ tốt nghiệp",
+        "image": "a black graduation cap (mortarboard) with a golden tassel, front view seen slightly from above"
+      }
+    },
+    {
+      "id": "home",
+      "en": "Home",
+      "vi": "Trong nhà",
+      "color": "#5f27cd",
+      "background": "a cozy warm living room with soft light, a rug and plants",
+      "words": [
+        {
+          "en": "bed",
+          "vi": "cái giường",
+          "sentence": "I sleep in my bed.",
+          "sentence_vi": "Tôi ngủ trên giường của mình.",
+          "image": "a cozy single bed with a blue blanket and a white pillow"
+        },
+        {
+          "en": "chair",
+          "vi": "cái ghế",
+          "sentence": "Sit on the chair.",
+          "sentence_vi": "Hãy ngồi lên ghế.",
+          "image": "a simple wooden chair"
+        },
+        {
+          "en": "table",
+          "vi": "cái bàn",
+          "sentence": "The table is in the kitchen.",
+          "sentence_vi": "Cái bàn ở trong bếp.",
+          "image": "a long rectangular wooden dining table with four tall legs, seen from a slight angle above, nothing on it"
+        },
+        {
+          "en": "lamp",
+          "vi": "cái đèn",
+          "sentence": "Turn on the lamp.",
+          "sentence_vi": "Hãy bật đèn lên.",
+          "image": "a desk lamp with a yellow lampshade, switched on and glowing"
+        },
+        {
+          "en": "door",
+          "vi": "cánh cửa",
+          "sentence": "Please close the door.",
+          "sentence_vi": "Làm ơn đóng cửa lại.",
+          "image": "a red wooden door with a round golden knob, front view"
+        },
+        {
+          "en": "window",
+          "vi": "cửa sổ",
+          "sentence": "Open the window.",
+          "sentence_vi": "Hãy mở cửa sổ ra.",
+          "image": "a wooden-framed window with blue sky and a cloud visible through the glass, front view"
+        },
+        {
+          "en": "sofa",
+          "vi": "ghế sofa",
+          "sentence": "Dad sits on the sofa.",
+          "sentence_vi": "Bố ngồi trên ghế sofa.",
+          "image": "a comfy green sofa with two cushions"
+        },
+        {
+          "en": "clock",
+          "vi": "đồng hồ",
+          "sentence": "Look at the clock.",
+          "sentence_vi": "Hãy nhìn đồng hồ.",
+          "image": "a round wall clock with hands and simple dots instead of numbers"
+        }
+      ],
+      "cover": "sofa",
+      "boss": {
+        "en": "Dusty Ghost",
+        "vi": "Ma Bụi",
+        "image": "a cute fluffy grey dust bunny ghost boss character with big eyes and a cheeky smile, floating, holding a feather duster, full body",
+        "defeated": "the same character sitting on the ground dizzy and defeated, swirly eyes, little stars circling around the head, still cute and friendly, not hurt"
+      },
+      "hat": {
+        "id": "nightcap",
+        "vi": "Mũ ngủ",
+        "image": "a cozy blue and white striped sleeping nightcap with a white pompom, front view"
+      }
+    },
+    {
+      "id": "transport",
+      "en": "Transport",
+      "vi": "Phương tiện",
+      "color": "#10ac84",
+      "background": "a sunny small town street with an empty road, little houses and trees",
+      "words": [
+        {
+          "en": "car",
+          "vi": "xe ô tô",
+          "sentence": "We go by car.",
+          "sentence_vi": "Chúng tôi đi bằng ô tô.",
+          "image": "a small red car, side view"
+        },
+        {
+          "en": "bus",
+          "vi": "xe buýt",
+          "sentence": "I go to school by bus.",
+          "sentence_vi": "Tôi đi học bằng xe buýt.",
+          "image": "a yellow school bus, side view"
+        },
+        {
+          "en": "bicycle",
+          "vi": "xe đạp",
+          "sentence": "I ride my bicycle.",
+          "sentence_vi": "Tôi đạp xe đạp.",
+          "image": "a green bicycle, side view"
+        },
+        {
+          "en": "motorbike",
+          "vi": "xe máy",
+          "sentence": "Mom rides a motorbike.",
+          "sentence_vi": "Mẹ đi xe máy.",
+          "image": "a red motor scooter, side view"
+        },
+        {
+          "en": "train",
+          "vi": "tàu hỏa",
+          "sentence": "The train is very long.",
+          "sentence_vi": "Đoàn tàu rất dài.",
+          "image": "a cute blue train locomotive, side view"
+        },
+        {
+          "en": "airplane",
+          "vi": "máy bay",
+          "sentence": "The airplane flies in the sky.",
+          "sentence_vi": "Máy bay bay trên bầu trời.",
+          "image": "a white passenger airplane flying, side view"
+        },
+        {
+          "en": "boat",
+          "vi": "con thuyền",
+          "sentence": "The boat is on the water.",
+          "sentence_vi": "Con thuyền ở trên mặt nước.",
+          "image": "a small wooden sailing boat with a white sail"
+        },
+        {
+          "en": "truck",
+          "vi": "xe tải",
+          "sentence": "The truck is big.",
+          "sentence_vi": "Chiếc xe tải rất to.",
+          "image": "a big orange dump truck, side view"
+        }
+      ],
+      "cover": "bus",
+      "boss": {
+        "en": "Captain Crab",
+        "vi": "Cua Thuyền Trưởng",
+        "image": "a cute red crab boss character wearing a navy captain hat, one big claw raised, confident grin, full body",
+        "defeated": "the same character sitting on the ground dizzy and defeated, swirly eyes, little stars circling around the head, still cute and friendly, not hurt"
+      },
+      "hat": {
+        "id": "captain",
+        "vi": "Mũ thuyền trưởng",
+        "image": "a white ship captain hat with a black visor and a golden anchor badge, front view"
+      }
+    }
+  ],
+  "chest": {
+    "closed": "a wooden treasure chest with golden trim and a keyhole, closed, front view",
+    "open": "the same treasure chest wide open with warm golden light and sparkles shining out of it"
+  }
+}

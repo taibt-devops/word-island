@@ -1,0 +1,106 @@
+{
+  "style_id": 5,
+  "words": {
+    "apple": 8,
+    "cat": 9,
+    "dog": 10,
+    "bird": 11,
+    "fish": 12,
+    "rabbit": 13,
+    "elephant": 14,
+    "monkey": 15,
+    "lion": 16,
+    "banana": 17,
+    "orange": 18,
+    "grapes": 19,
+    "watermelon": 20,
+    "strawberry": 21,
+    "mango": 22,
+    "bread": 23,
+    "pineapple": 24,
+    "milk": 25,
+    "egg": 26,
+    "cake": 27,
+    "rice": 28,
+    "noodles": 29,
+    "ice cream": 30,
+    "book": 31,
+    "candy": 32,
+    "ruler": 33,
+    "pencil": 34,
+    "eraser": 35,
+    "backpack": 36,
+    "scissors": 37,
+    "crayon": 38,
+    "globe": 39,
+    "bed": 40,
+    "chair": 41,
+    "table": 68,
+    "lamp": 43,
+    "door": 44,
+    "window": 45,
+    "sofa": 46,
+    "clock": 47,
+    "car": 48,
+    "bus": 49,
+    "bicycle": 50,
+    "motorbike": 51,
+    "train": 52,
+    "airplane": 53,
+    "boat": 54,
+    "truck": 55
+  },
+  "mascot": {
+    "base": 57,
+    "happy": 58,
+    "sad": 59,
+    "wave": 60
+  },
+  "backgrounds": {
+    "island": 61,
+    "animals": 62,
+    "fruits": 63,
+    "food": 64,
+    "school": 65,
+    "home": 66,
+    "transport": 67
+  },
+  "bosses": {
+    "animals": {
+      "base": 70,
+      "defeated": 83
+    },
+    "fruits": {
+      "base": 71,
+      "defeated": 82
+    },
+    "food": {
+      "base": 73,
+      "defeated": 84
+    },
+    "home": {
+      "base": 76,
+      "defeated": 86
+    },
+    "transport": {
+      "base": 78,
+      "defeated": 87
+    },
+    "school": {
+      "base": 80,
+      "defeated": 85
+    }
+  },
+  "hats": {
+    "animals": 69,
+    "fruits": 72,
+    "food": 74,
+    "school": 75,
+    "home": 77,
+    "transport": 79
+  },
+  "chest": {
+    "closed": 81,
+    "open": 88
+  }
+}

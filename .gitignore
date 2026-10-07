@@ -1,0 +1,10 @@
+build/
+__pycache__/
+dist/
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+# release signing key — back these up somewhere safe instead of committing them
+android/keystore/
+android/keystore.properties

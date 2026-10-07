@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lagoon">#FF1FB5C9</color>
+
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar.Fullscreen">
+        <!-- Lagoon blue while the WebView loads, instead of a white flash -->
+        <item name="android:windowBackground">@color/lagoon</item>
+        <item name="android:statusBarColor">@color/lagoon</item>
+        <item name="android:navigationBarColor">@color/lagoon</item>
+    </style>
+</resources>
